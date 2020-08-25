@@ -26,4 +26,9 @@ class Cat
 
 end 
 
-maru= Cat.new
+def Cat
+maru= Cat.new 
+maru.name="Maru"
+maru.meow= "meow!"
+puts maru.meow
+end 
